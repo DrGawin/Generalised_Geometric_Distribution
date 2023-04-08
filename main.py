@@ -185,10 +185,10 @@ def calculate():
     label_result_cost.config(text="The expected total cost is " + str(total_cost) + ".")
 
 # Debug code
-    for j in range(0, 4):
-        print(pmf[j])
-    print(total_cost)
-    return 0
+#    for j in range(0, 4):
+#        print(pmf[j])
+#    print(total_cost)
+#    return 0
 
 ###################
 
@@ -201,8 +201,8 @@ label_result_cost = tk.Label(root)
 label_result_cost.grid(row=9, column=0, columnspan=3)
 
 # create the calculate button
-# calculate_button = tk.Button(root, text="Calculate", command=calculate)
-# calculate_button.grid(row=6, column=0, columnspan=3, padx=10, pady=10)
+calculate_button = tk.Button(root, text="Calculate", command=calculate)
+calculate_button.grid(row=6, column=0, columnspan=3, padx=10, pady=10)
 
 # start the event loop
 root.mainloop()
