@@ -185,9 +185,9 @@ def calculate():
     label_result_cost.config(text="The expected total cost is " + str(total_cost) + ".")
 
 # Debug code
-#    for j in range(0, 4):
-#        print(pmf[j])
-#    print(total_cost)
+    for j in range(0, 4):
+        print(pmf[j])
+    print(total_cost)
     return 0
 
 ###################
